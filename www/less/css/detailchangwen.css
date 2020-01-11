@@ -1,0 +1,74 @@
+.detailwrap {
+  background: #ccc;
+}
+.detailwrap .detailheader {
+  background: #fff8de url(../images/header-bg-ui2.png) center no-repeat;
+  background-size: auto 50px;
+  height: 50px;
+}
+.detailwrap .detailheader h1 {
+  text-align: center;
+  line-height: 50px;
+}
+.detailwrap .detailcontent {
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 60px;
+  position: relative;
+}
+.detailwrap .detailcontent .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.detailwrap .detailcontent .username {
+  position: absolute;
+  top: 25px;
+  left: 60px;
+}
+.detailwrap .detailcontent .btns {
+  padding: 0 10px;
+}
+.detailwrap .detailcontent .btns .inner {
+  border-top: 1px solid;
+  overflow: hidden;
+}
+.detailwrap .detailcontent .btns .inner .btn1 {
+  float: left;
+  width: 70px;
+  height: 30px;
+}
+.detailwrap .detailcontent .btns .inner .btn1 em {
+  background-position: -25px -100px;
+}
+.detailwrap .detailcontent .btns .inner .btn2 {
+  float: left;
+  width: 70px;
+  height: 30px;
+}
+.detailwrap .detailcontent .btns .inner .btn2 em {
+  background-position: -75px -100px;
+}
+.detailwrap .detailcontent .btns .inner .btn3 {
+  float: right;
+  width: 70px;
+  height: 30px;
+}
+.detailwrap .detailcontent .btns .inner .btn3 em {
+  background-position: -200px -100px;
+}
+.detailwrap .detailcontent .btns .inner em {
+  background: url(/images/26.png);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 250px 237.5px;
+  position: relative;
+  top: 5px;
+  margin-right: 6px;
+}
